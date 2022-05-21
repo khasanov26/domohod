@@ -1,0 +1,42 @@
+.reasons {
+   margin-top: 88px;
+   height: 467px;
+   &__descr {
+      margin-top: 50px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000000;
+   }
+   &__card {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      .card {
+         display: flex;
+         flex-direction: column;
+         width: 386px;
+         height: 241px;
+         &__name {
+            margin-top: 32px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+         }
+         &__descr {
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #000000;
+            span {
+               font-weight: 600;
+               font-size: 16px;
+               line-height: 30px;
+               color: #E33E54;
+            }
+         }
+      }
+   }
+}

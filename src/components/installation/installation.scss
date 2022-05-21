@@ -1,0 +1,35 @@
+.installation {
+   margin-top: 64px;
+   height: 395px;
+   &__list {
+      margin-top: 52px;
+      display: flex;
+      justify-content: space-between;
+      // flex-direction: column-reverse;
+      // flex-direction: row-reverse; 
+   }
+   &__item {
+      display: flex;
+      align-items: center;
+      width: 595px;
+      height: 85px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000000;
+      span {
+         min-width: 45px;
+         display: block;
+         margin-right: 36px;
+         font-weight: 700;
+         font-size: 70px;
+         line-height: 85px;
+         color: #E33E54;
+         opacity: 0.2;
+      }
+   }
+   // &__column1 {
+   //    vertical-align: middle;
+   // }
+}
+

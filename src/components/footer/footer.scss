@@ -1,0 +1,124 @@
+.footer {
+   margin-top: 136px;
+   height: 350px;
+   background-color: #0C2F33;
+   &__content {
+      padding-top: 88px;
+      display: flex;
+      justify-content: space-between;
+   }
+   &__information {
+      width: 333px;
+      height: 189px;
+      .information {
+         &__head {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+         }
+         &__list {
+            margin-top: 18px;
+            column-gap: 82px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            list-style-type: none;
+            column-count: 2;
+         }
+         &__item {
+            margin-bottom: 19px;
+         }
+      }
+   }
+
+   &__catalog {
+      width: 343px;
+      height: 189px;
+      .catalog {
+         &__head {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+         }
+         &__list {
+            margin-top: 18px;
+            column-gap: 48px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            list-style-type: none;
+            column-count: 2;
+         }
+         &__item {
+            margin-bottom: 19px;
+         }
+      }
+   }
+
+   &__time {
+      width: 310px;
+      height: 170px;
+      .time {
+         &__head {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+         }
+         &__shedule {
+            margin-top: 16px;
+            display: flex;
+            .shedule {
+               &__image {
+                  margin-right: 8px;
+                  display: flex;
+                  align-self: center;
+               }
+               &__clock {
+                  height: 26px;
+                  font-family: 'Lato', sans-serif;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 24px;
+                  color: #4C858B;
+                     span {
+                        color: #FFFFFF;
+                        font-family: 'Lato';
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                     }
+               }
+            }
+            
+         }
+         &__location {
+            margin-top: 8px;
+            display: flex;
+            align-self: center;
+            .location {
+               &__image {
+                  margin-right: 8px;
+                  display: flex;
+                  align-self: center;
+               }
+               &__text {
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 24px;
+                  color: #FFFFFF;
+               }
+            }
+         }
+      }
+   }
+
+}
+// .container {
+//    margin: 0 auto;
+// }

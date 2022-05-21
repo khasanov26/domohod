@@ -1,0 +1,18 @@
+.work {
+   margin-top: 99px;
+   // height: 819px;
+   &__descr{
+      margin-top: 66px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000000;
+   }
+   &__image {
+      margin-top: 48px;
+      display: grid;
+      grid-template: repeat(2, 260px) / repeat(4, 282px);
+      gap: 30px;
+      height: 550px;
+   }
+}

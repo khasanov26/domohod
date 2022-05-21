@@ -1,0 +1,41 @@
+.navigation {
+   // padding-top: 170px;
+   width: 1218px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   &__border {
+      width: 100%;
+
+   }
+   &__links {
+      margin-top: 170px;
+      // width: 194px;
+      height: 48px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-top: #E5E5E5 solid 1px;
+      border-bottom: #E5E5E5 solid 1px;
+      column-gap: 7px;
+   }
+   &__main {
+      color: #B1B1B1;
+   }
+   &__installation {
+      color: #4C858B;
+   }
+   .installation__desqr{
+      margin-top: 81px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000000;
+      span {
+         font-weight: 600;
+         color: #E33E54;
+      }
+   }
+}
+
+

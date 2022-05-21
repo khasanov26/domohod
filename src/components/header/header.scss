@@ -1,0 +1,123 @@
+.header__container {
+   width: 1785px;
+   padding: 0 72px 0 63px;
+   height: 97px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-sizing: content-box;
+}
+.header {
+   margin: 0 auto;
+   margin-top: 26px;
+   height: 97px;
+   width: 1785px;
+   &__burger {
+      width: 56px;
+      height: 56px;
+      border: 1px solid #4C858B;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__nav {
+      width: 625px;
+
+   }
+   &__list {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 23px;
+      color: #4C858B;
+   }
+   &__link {
+      list-style-type: none;
+   }
+
+   .burger {
+      &__items {
+         width: 22px;
+         height: 22px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         padding: 2px 0;
+            span {
+               width: 22px;
+               height: 2px;
+               background-color: #4C858B;
+               border-radius: 1px;
+            }
+      }
+   }
+
+   &__contacts {
+      width: 387px;
+      display: flex;
+      justify-content: space-between;
+   }
+   &__number {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.08em;
+      color: #4C858B;
+      text-decoration: none;
+      span {
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 20px;
+         color: #000000;
+      }
+   }
+   &__callback {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #AE2236;
+      border-bottom: 1px dashed #AE2236;
+   }
+   .widget {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      &__item {
+         width: 56px;
+         height: 56px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border: 1px solid #E5E5E5;
+         border-radius: 100%;
+      }
+      .element {
+         position: relative;
+         margin-right: 2px;
+         &:before {
+            content: '10';
+            position: absolute;
+            top: 0.5px;
+            right: -1.5px;
+            width: 21px;
+            height: 21px;
+            background: #E33E54;
+            border-radius: 100%;
+            font-family: 'Lato';
+            font-weight: 800;
+            font-size: 11px;
+            line-height: 13px;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 21px;
+         }
+      }
+   }
+}

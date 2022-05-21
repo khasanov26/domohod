@@ -1,0 +1,55 @@
+.advantage {
+   margin-top: 17px;
+   height: 602px;
+   display: flex;
+   justify-content: space-between;
+   // column-gap: 46px;
+   &__text {
+      margin-top: 30px;
+      width: 615px;
+   }
+   &__header {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 63px;
+      color: #000000;
+      h1 {
+         padding: 0;
+         margin: 0;
+         font-weight: 800;
+         font-size: 50px;
+         line-height: 63px;
+         text-transform: uppercase;
+         color: #E33E54;
+      }
+   }
+   &__list {
+      margin-top: 39px;
+      padding-left: 54px;
+      ul {
+         li {
+            width: 513px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 24px;
+            list-style-type: none;
+            position: relative;
+         }
+         li::before {
+            content: '';
+            position: absolute;
+            background: #EA6628;
+            width: 9px;
+            height: 9px;
+            border-radius: 100%;
+            left: -17px;
+            top: 7px;
+         }
+      }
+   }
+   &__image {
+      margin-right: -160px;
+   }
+}
