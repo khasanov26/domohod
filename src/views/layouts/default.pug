@@ -11,14 +11,15 @@ html(lang="ru")
   body
     include ../../components/header/header
     main
-      block content
-      include ../../components/navigation/navigation
-      include ../../components/advantage/advantage
-      include ../../components/installation/installation
-      include ../../components/reasons/reasons
-      include ../../components/consultation/consultation
-      include ../../components/video/video
-      include ../../components/work/work
+      .container
+        block content
+        include ../../components/navigation/navigation
+        include ../../components/advantage/advantage
+        include ../../components/installation/installation
+        include ../../components/reasons/reasons
+        include ../../components/consultation/consultation
+        include ../../components/video/video
+        include ../../components/work/work
     include ../../components/footer/footer
     script(src="/assets/js/index.js")
     block scripts

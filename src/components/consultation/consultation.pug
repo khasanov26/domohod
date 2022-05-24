@@ -1,19 +1,19 @@
 include ../../views/helpers/mixins
 section.consultation
-   .consultation__head необходима консультация? <br>
+   h2.consultation__head необходима консультация? <br>
       span оставьте заявку или свяжитесь с нами в социальных сетях
    +social(class='consultation-social')
    .consultation__form.form 
-      .form__head Для 
+      p.form__head Для 
          span консультации
          |заполните форму!
-      .form__text С Вами свяжутся в ближайшее время
-      form(action="#", class="contacts__form")
+      p.form__text С Вами свяжутся в ближайшее время
+      form(action="#", class="form__contacts")
          input(type="text", name="name", id="name", placeholder="Ваше имя")
          label(for="name")
          input(type="tel", name="phone", id="phone", placeholder="Ваш телефон")
          label(for="phone")
-         <button class="contacts__btn">отправить</button>
+         <button class="form__btn">отправить</button>
 
 
 

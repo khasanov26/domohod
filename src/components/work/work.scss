@@ -14,5 +14,51 @@
       grid-template: repeat(2, 260px) / repeat(4, 282px);
       gap: 30px;
       height: 550px;
+      a {
+
+      }
    }
+   &__image { 
+      a {
+         position: relative;
+      }
+      a::before {
+         position: absolute;
+         content: "";
+         width: 50px;
+         height: 50px;
+         // background: #4C858B;
+         border-bottom: 4px solid #4C858B;
+         border-left: 4px solid #4C858B;
+         font-size: 70px;
+         color: black;
+         bottom: 0;
+         left: 0;
+      }
+      a::after {
+         position: absolute;
+         content: "";
+         width: 50px;
+         height: 50px;
+         // background: #4C858B;
+         border-top: 4px solid #4C858B;
+         border-right: 4px solid #4C858B;
+         font-size: 70px;
+         color: black;
+         top: 0;
+         right: 0;
+      }
+   }
+   &__image {
+      a:hover {
+         transform: scale(1.2);
+         transition: all 0.5s;
+      }
+   }
+}
+
+img::before {
+   content: "a";
+   font-size: 70px;
+   color: black;
 }
