@@ -43,18 +43,39 @@
    }
 
    .burger {
+      position: relative;
       &__items {
          width: 22px;
          height: 22px;
          display: flex;
          flex-direction: column;
-         justify-content: space-between;
+         justify-content: center;
          align-items: center;
-         padding: 2px 0;
+         // padding: 2px 0;
             span {
                width: 22px;
                height: 2px;
                background-color: #4C858B;
+               border-radius: 1px;
+            }
+            span::after {
+               position: absolute;
+               content: "";
+               width: 22px;
+               height: 2px;
+               background: #4C858B;
+               top: 1px;
+               right: 0;
+               border-radius: 1px;
+            }
+            span::before {
+               position: absolute;
+               content: "";
+               width: 22px;
+               height: 2px;
+               background: #4C858B;
+               bottom: 1px;
+               right: 0;
                border-radius: 1px;
             }
       }
