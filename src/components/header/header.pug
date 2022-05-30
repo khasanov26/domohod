@@ -2,8 +2,8 @@ include ../../views/helpers/mixins
 header.header
    div(class=['header__container'])
       .header__logo
-         a(href="#!")
-             img(src="../assets/images/header/logo.svg", alt='logo')
+         //- a(href="#!")
+         img(src="../../assets/images/header/logo.svg", alt='logo')
       button.header__burger.burger(type="button")
          span.burger 
             span.burger__items
@@ -37,3 +37,45 @@ header.header
             .widget__item.element
                a(href="#!")
                   img(src="../assets/images/header/widget/shopping.svg", alt="shopping")
+
+
+
+//- include ../../views/helpers/mixins
+//- header.header
+//-    div(class=['header__container'])
+//-       .header__logo
+//-          a(href="#!")
+//-              img(src="../assets/images/header/logo.svg", alt='logo')
+//-       button.header__burger.burger(type="button")
+//-          span.burger 
+//-             span.burger__items
+//-                   span
+//-                   //- span
+//-                   //- span
+//-       nav.header__nav 
+//-          ul.header__list
+//-             li.header__link 
+//-                a(href="#!") Каталог товаров
+//-             li.header__link
+//-                a(href="#!") Доставка и оплата
+//-             li.header__link
+//-                a(href="#!") Цены
+//-             li.header__link
+//-                a(href="#!") Контакты
+//-       .header__contacts
+//-          a(href="tel:+78142332211", class="header__number") +7 (812)
+//-             span  509 21 98
+//-          .header__callback
+//-             a(href="#!") перезвоните мне
+//-       +social
+//-       .header__widgets.widget
+//-          .widget
+//-             .widget__item
+//-                a(href="#!")
+//-                   img(src="../assets/images/header/widget/search.svg", alt="search")
+//-             .widget__item
+//-                a(href="#!")
+//-                   img(src="../assets/images/header/widget/like.svg", alt="like")
+//-             .widget__item.element
+//-                a(href="#!")
+//-                   img(src="../assets/images/header/widget/shopping.svg", alt="shopping")

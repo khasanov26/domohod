@@ -1,11 +1,10 @@
 .navigation {
-   // padding-top: 170px;
-   width: 1218px;
+   max-width: 1218px;
    font-weight: 400;
    font-size: 12px;
    line-height: 15px;
    &__head {
-      margin-top: 56px;
+      padding-top: 56px;
       font-weight: 700;
       font-size: 60px;
       line-height: 73px;
@@ -16,17 +15,21 @@
 
    }
    &__links {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 0px;
       font-weight: 400;
       font-size: 12px;
       line-height: 15px;
       color: #B1B1B1;
       display: flex;
       gap: 20px;
-      height: 48px;
+      // height: 48px;
       margin-top: 41px;
       border-top: #E5E5E5 solid 1px;
       border-bottom: #E5E5E5 solid 1px;
       align-items: center;
+      padding: 14px 0 19px 0;
    }
    &__link {
       position: relative;
@@ -34,32 +37,14 @@
    &__link.active {
       color: #4C858B;
    }
-   &__link:nth-child(1)::after {
-      position: absolute;
-      content: url('../../assets/images/navigation/rightArrow.svg');
-      right: -13px;
-   }
-
-
-   // &__links {
-   //    margin-top: 41px;
-   //    // width: 194px;
-   //    height: 48px;
-   //    display: flex;
-   //    justify-content: flex-start;
-   //    align-items: center;
-   //    border-top: #E5E5E5 solid 1px;
-   //    border-bottom: #E5E5E5 solid 1px;
-   //    column-gap: 7px;
+   // &__link:nth-child(4)::after {
+   //    position: absolute;
+   //    content: url('../../assets/images/navigation/rightArrow.svg');
+   //    right: -13px;
    // }
-   // &__main {
-   //    color: #B1B1B1;
-   // }
-   // &__installation {
-   //    color: #4C858B;
-   // }
-   .navigation__desqr{
-      margin-top: 81px;
+   
+   &__desqr{
+      padding-top: 81px;
       font-weight: 400;
       font-size: 16px;
       line-height: 30px;

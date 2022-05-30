@@ -1,12 +1,13 @@
 .advantage {
-   margin-top: 17px;
-   height: 602px;
+   padding-top: 17px;
+   // height: 602px;
    display: flex;
    justify-content: space-between;
-   // column-gap: 46px;
+   column-gap: 46px;
+
    &__text {
-      margin-top: 30px;
-      width: 615px;
+      padding-top: 30px;
+      max-width: 615px;
    }
    &__header {
       font-weight: 600;
@@ -28,7 +29,7 @@
       padding-left: 54px;
       ul {
          li {
-            width: 513px;
+            max-width: 513px;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
@@ -50,6 +51,17 @@
       }
    }
    &__image {
-      margin-right: -160px;
+      overflow: visible;
+      // margin-right: -160px;
+      background-image: url("../../assets/images/advantage/advantage.svg");
+      background-repeat: no-repeat;
+      width: 100%;
+      img {
+         max-width: 100%;
+         height: auto;
+         width: 100%;
+         width: 776px;
+         height: 541px;
+      }
    }
 }
