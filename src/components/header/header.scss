@@ -129,6 +129,22 @@
       color: #AE2236;
       border-bottom: 1px dashed #AE2236;
    }
+   &__theme {
+      min-width: 56px;
+      min-height: 56px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #E5E5E5;
+      border-radius: 100%;
+      button {
+         img {
+            width: 27px;
+            height: 27px;
+            filter: invert(47%) sepia(23%) saturate(627%) hue-rotate(137deg) brightness(95%) contrast(95%);
+         }
+      }
+   }
    .widget {
       display: flex;
       justify-content: space-between;
@@ -166,4 +182,7 @@
          }
       }
    }
+}
+.white {
+   color: #fff;
 }

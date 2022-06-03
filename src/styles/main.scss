@@ -16,6 +16,7 @@
    margin-left: auto;
    padding-right: 15px;
    padding-left: 15px;
+
 }
 
 .header-social {
@@ -26,6 +27,8 @@
    align-items: center;
    flex-wrap: wrap;
 }
+
+
 
 .consultation-social {
    // width: 23px;
@@ -168,6 +171,9 @@ button {
          margin-left: auto;
          padding-right: 21px;
       }
+      &__theme {
+         margin-right: 21px;
+      }
    }
 
    .navigation {
@@ -201,6 +207,10 @@ button {
          min-width: 44px;
          min-height: 44px;
          margin-left: 22px;
+      }
+      &__theme {
+         min-width: 44px;
+         min-height: 44px;
       }
       &__widgets {
          display: none;
@@ -251,3 +261,36 @@ button {
 }
 
 
+
+
+.dark {
+   background-color:#000;
+}
+.white {
+color: #fff;
+}
+
+.white-span {
+   span {
+      color: #fff;
+   }
+}
+
+.element-dark {
+   a {
+      img {
+         filter: invert(100%) sepia(98%) saturate(7%) hue-rotate(171deg) brightness(103%) contrast(103%);
+      }
+   }
+}
+
+// p, li, h1, h2 {
+//    color: #fff;
+// }
+// ul {
+//    color: #fff;
+// }
+
+// html {
+//    color: white;
+// }
